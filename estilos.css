@@ -1,0 +1,385 @@
+.rum-raisin-regular {
+  font-family: "Rum Raisin", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ee97e7;
+    margin: 0;
+    align-content: center;
+}
+
+.title{
+    font-family: "Rum Raisin", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #f2f550;
+}
+nav{
+    background-color: #e6a4ec;
+    padding: 40px 0 40px 0;
+}
+
+.menu-obtainer{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu-link{
+    color: rgb(29, 29, 29);;
+    font-family: "Archivo", 
+}
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu-obtainer p{
+    font-family: "Rum Raisin", sans-serif;
+    font-size:25px;
+}
+
+.section1{
+    display: flex;
+}
+
+.section1 h2{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.section1 p{
+    font-family: "Rum Raisin", sans-serif;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+
+}
+.section1 article{
+    padding: 20px;
+    width: 50%;
+    background-color: #f0cb54;
+    font-size: 20px;
+}
+
+.section1 img{
+    width: 50%;
+}
+
+.section2{
+    display: flex;
+}
+
+.section2{
+    flex-direction: row-reverse;
+}
+
+.section2 p{
+    font-family: "Rum Raisin", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section2 h2{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    color: rgb(22, 22, 22);
+    font-size: 35px;
+}
+
+.section2 article{
+    padding: 0px;
+    width: 50%;
+    background-color:#2bd756;
+    font-size: 20px;
+}
+
+.section2 img{
+    width: 50%;
+}
+
+.section3{
+    display: flex;
+}
+
+.section3 p{
+    font-family: "Rum Raisin", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section3 h2{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    color: rgb(20, 20, 20);
+    font-size: 35px;
+}
+
+.section3 article{
+    padding: 20px;
+    width: 50%;
+    background-color:#d06ee9;
+}
+
+.section3 img{
+    width: 50%;
+}
+
+.section4{
+    display: flex;
+}
+
+.section4{
+    flex-direction: row-reverse;
+}
+
+.section4 p{
+    font-family: "Rum Raisin", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section4 h2{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    color: rgb(19, 19, 19);
+    font-size: 35px;
+    justify-content: center;
+}
+
+.section4 article{
+    padding: 20px;
+    width: 50%;
+    background-color:#59afe9;
+}
+
+.section4 img{
+    width: 50%;
+}
+
+.title-page{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    background-color: #d06ee9;
+}
+
+.product-container{
+    font-family: "Rum Raisin", sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    width: 300px;
+    background-color: #5fcbe0;
+    padding: 10px;
+}
+
+.product-div{
+    padding: 10px;
+}
+
+.product-container img{
+    width: 300px;
+}
+
+.product-title{
+    color: rgb(37, 37, 37);
+}
+
+.product-title_1{
+    color: rgb(182, 50, 50);
+}
+
+.product-title_2{
+    color: #d0f54a;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.Copyright{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.Copyright p{
+    font-family: "Rum Raisin", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    font-family: "Rum Raisin", sans-serif;
+    border: 0;
+    background-color: #FFD758;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 17px;
+    
+}
+
+.button_1{
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+.carrito-flotante {
+    position: fixed;
+    top: 2px;
+    right: 10px;
+    z-index: 1001;
+    background: #78a942;
+    color: rgb(37, 21, 21);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 10px;
+    font-family: "Rum Raisin", sans-serif;
+    font-size: 16.6px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px #0002;
+}
+
+.fondo-carrito {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1002;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.panel-carrito {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 380px;
+    max-width: 90%;
+    height: 100vh;
+    height: 100dvh;
+    box-sizing: border-box;
+    background: #fffdf5;
+    z-index: 1003;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -5px 0 20px #0002;
+}
+
+.panel-carrito.abierto {
+    transform: translateX(0);
+}
+
+.fondo-carrito.abierto {
+    opacity: 1;
+    visibility: visible;
+}
+
+.encabezado-carrito {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ffdf65;
+    padding-bottom: 12px;
+}
+
+.encabezado-carrito h2 {
+    margin: 0;
+    color: #49351f;
+}
+
+.cerrar-carrito {
+    border: none;
+    background: #ffe8a3;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.mensaje-carrito {
+    color: #79674e;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    overflow-y: auto;
+    flex: 1;
+}
+
+#lista-carrito li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee2c7;
+}
+
+#lista-carrito button {
+    background: #e58a70;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 10px;
+    cursor: pointer;
+}
+
+.resumen-carrito {
+    border-top: 2px solid #ffdf65;
+    padding-top: 12px;
+}
+
+.resumen-carrito h3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vaciar {
+    width: 100%;
+    background: #78a942;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
+    <title>Layla's</title>
+
+</head>
+<button class="carrito-flotante" onclick="abrirCarrito()">
+    🛒 Mi carrito (<span id="contador-carrito">0</span>)
+</button>
+
+<div id="fondo-carrito" class="fondo-carrito"
+     onclick="cerrarCarrito()"></div>
+
+<aside id="panel-carrito" class="panel-carrito">
+    <div class="encabezado-carrito">
+        <h2>🛒 Tu pedido</h2>
+        <button class="cerrar-carrito" onclick="cerrarCarrito()">
+            ✕
+        </button>
+    </div>
+    <p class="mensaje-carrito">¡Tus dorayakis favoritos! 💛</p>
+    <ul id="lista-carrito"></ul>
+    <div class="resumen-carrito">
+        <h3>Total: <span id="total">$0</span></h3>
+        <button class="vaciar" onclick="vaciarCarrito()">
+            Vaciar carrito
+        </button>
+    </div>
+</aside>
+<script src="carrito.js"></script>
+<body>
+    <nav>
+        <ol class="menu-obtainer">
+            <li><a class="menu-link" href="#quienes-somos">Quienes Somos</a></li>
+            <li><a class="menu-link" href="#mision">Misión</a></li>
+            <li><a class="title">Layla's</a></li>
+            <li><a class="menu-link" href="#vision">Visión</a></li>
+            <li><a class="menu-link" href="#objetivos">Objetivos</a></li>
+            <li><a class="menu-link" href="#productos">Productos</a></li>
+        </ol>
+    </nav>
+
+    <section class="section1" id="quienes-somos">
+        <article>
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos una propuesta que redefine el dorayaki, fusionando la suavidad de nuestros panqueques con la cremosidad del helado. Creamos una experiencia sofisticada, auténtica y memorable, donde cada bocado representa exclusividad, innovación y un estilo único para quienes buscan algo extraordinario.</p>
+        </article>
+        <img src="img/quienes-somos.png" alt="Dorayaki de Layla's">
+    </section>
+
+    <section class="section2" id="mision">
+        <article>
+            <h2>Misión</h2>
+            <p>Crear experiencias únicas a través de dorayakis rellenos de helado, combinando calidad, innovación y elegancia en cada bocado. Buscamos transformar un postre tradicional en una propuesta premium, ofreciendo sabores memorables que conecten con quienes valoran lo diferente, auténtico y extraordinario.</p>
+        </article>
+        <img src="img/mision.png"Dorayaki de helado">
+    </section>
+
+    <section class="section3" id="vision">
+        <article>
+            <h2>Visión</h2>
+            <p>Crear dorayakis o panqueques rellenos de helado, combinando sabores, texturas y calidad para ofrecer una experiencia deliciosa, innovadora y memorable, satisfaciendo los gustos de nuestros clientes con productos únicos y una presentación atractiva.</p>
+        </article>
+        <img src="img/vision.png" alt="Imagen de Layla's">
+    </section>
+
+    <section class="section4" id="objetivos">
+        <article>
+            <h2>Objetivos</h2>
+            <p>Ofrecer productos de alta calidad, crear sabores innovadores, brindar excelente atención al cliente, lograr una presentación atractiva, satisfacer las necesidades de los consumidores y posicionar la empresa como una propuesta diferente y competitiva en el mercado.</p>
+        </article>
+        <img src="img/objetivo.png" alt="Objetivos de Layla's">
+    </section>
+
+    <h2 class="title-page" id="productos">Productos</h2>
+
+    <section class="product-container">
+        <article class="product">
+            <img src="img/choco.png" alt="Dorayaki ChocoCream">
+            <div>
+                <h3 class="product-title">Dorayaki ChocoCream</h3>
+                <p class="description">Panqueques acompañados de helado de vainilla, chocolate derretido, chispas de chocolate y fresas.
+                Hecho con amor para ti ❤️.</p>
+                <p class="price">$ 17.000</p>
+                <button class="btn" onclick="agregarProducto('Choco Layla’s', 17000, this)">
+                🛒 Comprar
+            </div>
+        </article>
+
+        <article class="product">
+            <img src="img/fresa.png" alt="Dorayaki Berry Love">
+            <div>
+                <h3 class="product-title_1">Dorayaki Berry Love</h3>
+                <p class="description">Torre de panqueques esponjosos con fresas, crema de vainilla, salsa de chocolate y un toque de amor.</p>
+                <p class="price">$ 15.000</p>
+                <button class="btn" onclick="agregarProducto('Choco Layla’s', 17000, this)">
+                🛒 Comprar
+</button>
+            </div>
+        </article>
+
+        <article class="product">
+            <img src="img/banana.png" alt="Dorayaki Banana Dream">
+            <div>
+                <h3 class="product-title_2">Dorayaki Banana Dream</h3>
+                <p class="description">Panqueques con helado, banano, fresas, caramelo y chispitas de colores, perfectos para compartir.
+                Hechos con amor ❤️</p>
+                <p class="price">$ 18.000</p>
+                <button class="btn" onclick="agregarProducto('Choco Layla’s', 17000, this)">
+                🛒 Comprar
+            </div>
+        </article>
+    </section>
+
+    <footer class="Copyright" id="inicio">
+        <p>Copyright (©) 2026 "Layla's Copyright". Desarrollado por Heiner Sanchez ; Miguel Torres ; Dilan Limas</p>
+    </footer>
+</body>
+</html>
+<!--  -->
